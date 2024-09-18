@@ -25,3 +25,7 @@ img/
 dataloader/
 
 *.pth
+
+*.h5
+
+save_weights/
