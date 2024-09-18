@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="PYTHON_MODULE" version="4">
+  <component name="NewModuleRootManager">
+    <content url="file://$MODULE_DIR$">
+      <excludeFolder url="file://$MODULE_DIR$/dataloader" />
+      <excludeFolder url="file://$MODULE_DIR$/dataset" />
+      <excludeFolder url="file://$MODULE_DIR$/important_part/dataset" />
+      <excludeFolder url="file://$MODULE_DIR$/important_part/logs" />
+      <excludeFolder url="file://$MODULE_DIR$/logs" />
+      <excludeFolder url="file://$MODULE_DIR$/project/dataset" />
+      <excludeFolder url="file://$MODULE_DIR$/project/img" />
+      <excludeFolder url="file://$MODULE_DIR$/project/logs" />
+      <excludeFolder url="file://$MODULE_DIR$/project/test_data" />
+      <excludeFolder url="file://$MODULE_DIR$/study_Git/LeNet/data" />
+      <excludeFolder url="file://$MODULE_DIR$/test_data" />
+    </content>
+    <orderEntry type="jdk" jdkName="torch" jdkType="Python SDK" />
+    <orderEntry type="sourceFolder" forTests="false" />
+  </component>
+</module>
