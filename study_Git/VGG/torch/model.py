@@ -7,12 +7,12 @@ class VGG(nn.Module):
         super(VGG, self).__init__()
         self.features = features
         self.classifier = nn.Sequential(
-            nn.Dropout(0.5),
             nn.Linear(512 * 7 * 7, 2048),
             nn.ReLU(True),
             nn.Dropout(0.5),
             nn.Linear(2048, 2048),
             nn.ReLU(True),
+            nn.Dropout(0.5),
             nn.Linear(2048, num_classes)
         )
         if init_weights:
@@ -20,7 +20,7 @@ class VGG(nn.Module):
 
     def forward(self, x):
         x = self.features(x)
-        x = nn.Flatten(x, 1)
+        x = torch.flatten(x, 1)
         x = self.classifier(x)
         return x
 
