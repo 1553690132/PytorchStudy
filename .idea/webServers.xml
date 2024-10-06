@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="2ebb6f9c-f678-42d2-a5c8-8e37476fbacf" name="实验室">
+        <fileTransfer rootFolder="/home/student/data20t/student/LuWeihao" accessType="SFTP" host="101.7.150.139" port="4000" sshConfigId="dcba30e7-d114-41de-bac7-f28c826e7890" sshConfig="LuWeihao@101.7.150.139:4000 password">
+          <advancedOptions>
+            <advancedOptions controlEncoding="UTF-8" dataProtectionLevel="Private" keepAliveTimeout="0" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>

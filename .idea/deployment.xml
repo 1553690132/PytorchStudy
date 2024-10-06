@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="PublishConfigData" serverName="实验室" remoteFilesAllowedToDisappearOnAutoupload="false">
+    <serverData>
+      <paths name="LuWeihao@101.7.150.139:4000 password">
+        <serverdata>
+          <mappings>
+            <mapping deploy="/home/student/data20t/student/LuWeihao/my_anaconda_envs/LuWeihao" local="$PROJECT_DIR$" />
+          </mappings>
+        </serverdata>
+      </paths>
+      <paths name="实验室">
+        <serverdata>
+          <mappings>
+            <mapping deploy="/" local="$PROJECT_DIR$" web="/" />
+          </mappings>
+        </serverdata>
+      </paths>
+    </serverData>
+  </component>
+</project>
